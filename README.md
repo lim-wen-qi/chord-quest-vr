@@ -15,6 +15,13 @@ Players progress through multiple rooms, interacting with musical objects
 and completing note and rhythm puzzles before performing a final musical
 sequence.
 
+## Level Design
+
+<img width="1293" height="877" alt="image" src="https://github.com/user-attachments/assets/901a6a5f-485b-448e-9cb3-31a1bbeccadc" />
+
+Chord Quest uses a room-based structure where players progress through
+different musical challenges before reaching the final performance sequence.
+
 ## Key Features
 
 - Room-based VR puzzle progression
