@@ -24,11 +24,14 @@ The experience was designed with beginner VR users in mind, using intuitive inte
 
 ## Technical Implementation
 
-The project was developed in Unity using C# with XR Interaction Toolkit and OpenXR for VR interaction and device support.
+The project was developed in Unity using C#, XR Interaction Toolkit, and OpenXR for VR interaction and device support.
 
-Gameplay logic was separated into scripts responsible for puzzle management, game progression, musical notes, piano interactions, doors, sound playback, and level management.
+The gameplay is organised across several scripts responsible for musical interactions, puzzle logic, game progression, and environmental behaviour.
 
-VR interactions include object manipulation, trigger-based events, teleportation, and interactive musical elements used throughout the puzzle rooms.
+- `SongManager` manages the final piano sequence, including correct and incorrect inputs, retry feedback, puzzle completion, and scene progression.
+- `NoteBox` and `PuzzleManager` work together to validate note-block placement and determine when the placement puzzle has been completed.
+- `DoorOpener` controls environmental progression when puzzle conditions are satisfied.
+- VR interactions use controller-based object manipulation, trigger interactions, and teleport locomotion through XR Interaction Toolkit.
 
 ## Technologies
 
@@ -40,9 +43,9 @@ VR interactions include object manipulation, trigger-based events, teleportation
 
 ## User Testing
 
-User testing was conducted to evaluate the VR experience, including puzzle interactions, controls, locomotion comfort, and overall usability.
+User testing was conducted to evaluate puzzle interactions, controls, navigation, and overall usability of the VR experience.
 
-Feedback from testing was used to assess how effectively players could navigate the environment and interact with the musical challenges.
+The project also considered VR comfort through the use of teleport locomotion. Testing highlighted that a more detailed evaluation of simulator discomfort and locomotion comfort would be valuable in future iterations.
 
 ## Project Context
 
