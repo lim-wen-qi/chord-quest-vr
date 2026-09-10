@@ -14,13 +14,23 @@ Players progress through multiple rooms, interacting with musical objects and co
 
 ## Level Design
 
+### 3D Asset Modelling
+
+<img width="1596" height="1411" alt="blender-asset" src="https://github.com/user-attachments/assets/7c5cc374-83b1-46bc-99ef-388407d0b3ab" />
+
+Environment and gameplay assets were modelled in Blender, including structural components, furniture, musical objects, and interactive elements.
+
+### Level Assembly
+
 <img width="1293" height="877" alt="image" src="https://github.com/user-attachments/assets/901a6a5f-485b-448e-9cb3-31a1bbeccadc" />
 
+The assets were imported and assembled in Unity to construct the room-based
+VR environment. Players progress through different musical challenges before
+reaching the final performance sequence.
+
+### In-Game Result
+
 <img width="2100" height="1287" alt="gameplay" src="https://github.com/user-attachments/assets/18c1de93-65e3-4709-906c-9e65f06af955" />
-
-Chord Quest uses a room-based structure where players progress through different musical challenges before reaching the final performance sequence.
-
-The environment assets were modelled in Blender and then imported and assembled in Unity to construct the complete VR level. Each room introduces different interactions, progressing from note-based puzzles to the final piano performance.
 
 ## Key Features
 
