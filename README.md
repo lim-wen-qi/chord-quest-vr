@@ -24,9 +24,7 @@ Environment and gameplay assets were modelled in Blender, including structural c
 
 <img width="1293" height="877" alt="image" src="https://github.com/user-attachments/assets/901a6a5f-485b-448e-9cb3-31a1bbeccadc" />
 
-The assets were imported and assembled in Unity to construct the room-based
-VR environment. Players progress through different musical challenges before
-reaching the final performance sequence.
+The assets were imported and assembled in Unity to construct the room-based VR environment. Players progress through different musical challenges before reaching the final performance sequence.
 
 ### In-Game Result
 
@@ -51,7 +49,7 @@ OpenXR for VR interaction and device support.
 - `NoteBox` and `PuzzleManager` validate note placement and manage puzzle completion
 - `DoorOpener` controls environmental progression when puzzle conditions are satisfied
 - XR Interaction Toolkit handles controller-based object interaction and teleport locomotion
-- Modelled environment assets in Blender and assembled them in Unity to construct the VR level
+- Modelled 3D environment and gameplay assets in Blender, then imported and assembled them in Unity to construct the VR environment.
 
 ## Technologies
 
