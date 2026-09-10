@@ -19,7 +19,8 @@ Players progress through multiple rooms, interacting with musical objects and co
 <img width="2100" height="1287" alt="gameplay" src="https://github.com/user-attachments/assets/18c1de93-65e3-4709-906c-9e65f06af955" />
 
 Chord Quest uses a room-based structure where players progress through different musical challenges before reaching the final performance sequence.
-Each room introduces a different interaction, from note-based puzzles to the final piano performance.
+
+The environment assets were modelled in Blender and then imported and assembled in Unity to construct the complete VR level. Each room introduces different interactions, progressing from note-based puzzles to the final piano performance.
 
 ## Key Features
 
@@ -40,6 +41,7 @@ OpenXR for VR interaction and device support.
 - `NoteBox` and `PuzzleManager` validate note placement and manage puzzle completion
 - `DoorOpener` controls environmental progression when puzzle conditions are satisfied
 - XR Interaction Toolkit handles controller-based object interaction and teleport locomotion
+- Modelled environment assets in Blender and assembled them in Unity to construct the VR level
 
 ## Technologies
 
@@ -47,6 +49,7 @@ OpenXR for VR interaction and device support.
 - C#
 - XR Interaction Toolkit
 - OpenXR
+- Blender
 - Universal Render Pipeline (URP)
 
 ## Testing & Evaluation
